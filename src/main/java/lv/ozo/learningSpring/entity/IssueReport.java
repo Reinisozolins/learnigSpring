@@ -13,9 +13,9 @@ public class IssueReport {
     private Long id;
     @NotBlank(message = "Email is mandatory")
     private String email;
-    @NotBlank(message = "Urla is mandatory")
+    @NotBlank(message = "Url is mandatory")
     private String url;
-    @NotBlank(message = "text is mandatory")
+    @NotBlank(message = "Text is mandatory")
     private String description;
     private boolean markedAsPrivate;
     private boolean updates;
